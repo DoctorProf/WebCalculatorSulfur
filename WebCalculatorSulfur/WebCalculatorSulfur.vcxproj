@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\CalculatorApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\beancan_grenade.png" />
@@ -146,6 +147,9 @@
     <Image Include="resources\satchel.png" />
     <Image Include="resources\small_stash.png" />
     <Image Include="resources\sulfur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CalculatorApp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
