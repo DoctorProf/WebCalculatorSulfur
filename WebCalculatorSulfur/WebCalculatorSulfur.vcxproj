@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\CalculatorApp.cpp" />
+    <ClCompile Include="src\calculator_explosive.cpp" />
+    <ClCompile Include="src\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\beancan_grenade.png" />
@@ -150,6 +152,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\CalculatorApp.h" />
+    <ClInclude Include="include\calculator_explosive.h" />
+    <ClInclude Include="include\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\style.css" />
+    <None Include="resources\themes\default\wt.css" />
+    <None Include="resources\webkit-transitions.css" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

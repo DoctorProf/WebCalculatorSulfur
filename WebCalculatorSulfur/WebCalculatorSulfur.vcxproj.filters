@@ -21,6 +21,12 @@
     <ClCompile Include="src\CalculatorApp.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="src\calculator_explosive.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\beancan_grenade.png">
@@ -76,5 +82,16 @@
     <ClInclude Include="include\CalculatorApp.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="include\calculator_explosive.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\themes\default\wt.css" />
+    <None Include="resources\webkit-transitions.css" />
+    <None Include="resources\style.css" />
   </ItemGroup>
 </Project>
